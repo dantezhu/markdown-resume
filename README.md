@@ -9,5 +9,5 @@
 
     依赖字体：
 
-    - 普通字体：`思源宋体`
-    - 等宽字体：`IBM Plex Mono`
+    - 普通字体：[思源宋体](https://github.com/adobe-fonts/source-han-serif)
+    - 等宽字体：[IBM Plex Mono](https://github.com/IBM/plex)
