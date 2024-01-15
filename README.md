@@ -1,5 +1,5 @@
 # markdown-resume
-基于markdown的简历模板，并提供配套的主题样式
+基于markdown的简历模板，并提供配套的主题样式。
 
 ## 预览
 
@@ -9,7 +9,7 @@
 
 - resume.css
 
-    专门针对简历定制的主题样式。fork from `typora/github.css`
+    专门针对简历定制的 Typora 主题样式。fork from `typora/github.css`
 
     依赖字体：
 
