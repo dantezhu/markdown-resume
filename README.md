@@ -5,7 +5,7 @@
 
 - resume.css
 
-    专门针对简历定制的主题样式。fork from github.css
+    专门针对简历定制的主题样式。fork from `typora/github.css`
 
     依赖字体：
 
