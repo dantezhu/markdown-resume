@@ -270,7 +270,7 @@ code {
   margin-left: -1.3em;
 }
 
-/* 由于需要使用table来辅助对齐，因此导出时，table不能有边框和背景色，也不能有表头 */
+/* 由于需要使用table来辅助对齐，因此编辑时保留边框，但导出时，去掉边框 */
 .typora-export table tr, .typora-export table th, .typora-export table td {
     border: 0; 
 }
