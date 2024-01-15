@@ -1,6 +1,10 @@
 # markdown-resume
 基于markdown的简历模板，并提供配套的主题样式
 
+## 预览
+
+![](preview/resume.png)
+
 ## 文件说明
 
 - resume.css
