@@ -201,6 +201,8 @@ blockquote blockquote {
 table {
     padding: 0;
     word-break: initial;
+    width: 100%;
+    text-align: left;
 }
 table tr {
     border: 1px dotted #dfe2e5;
