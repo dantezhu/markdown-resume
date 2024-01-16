@@ -236,6 +236,12 @@ table td:last-child {
     margin-bottom: 0;
 }
 
+/* 表格最左侧列禁止换行 */
+table th:first-child,
+table td:first-child {
+    white-space:nowrap;
+}
+
 .CodeMirror-lines {
     padding-left: 4px;
 }
