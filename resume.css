@@ -44,18 +44,6 @@ body {
     padding-bottom: 100px;
 }
 
-@media only screen and (min-width: 1400px) {
-	#write {
-		max-width: 1024px;
-	}
-}
-
-@media only screen and (min-width: 1800px) {
-	#write {
-		max-width: 1200px;
-	}
-}
-
 #write > ul:first-child,
 #write > ol:first-child{
     margin-top: 30px;
