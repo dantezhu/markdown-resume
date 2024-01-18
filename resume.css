@@ -284,6 +284,10 @@ code {
         page-break-inside: avoid;
         word-wrap: break-word;
     }
+    /* 避免表头在多个页面重复显示 */
+    table thead {
+        display: table-row-group;
+    }
 }
 
 .md-fences {
