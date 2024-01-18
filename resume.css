@@ -224,10 +224,13 @@ table td:last-child {
     margin-bottom: 0;
 }
 
-/* 表格最左侧列禁止换行 */
-table th:first-child,
-table td:first-child {
-    white-space:nowrap;
+/* 表格奇数列 */
+table th:nth-child(odd), table td:nth-child(odd) {
+    /* 不准换行 */
+    white-space: nowrap;
+
+    /* 宽度适配内容 */
+    width: 1%;
 }
 
 .CodeMirror-lines {
