@@ -11,11 +11,6 @@
 
     专门针对简历定制的 Typora 主题样式。fork from `typora/github.css`
 
-    依赖字体：
-
-    - 普通字体：[思源宋体](https://github.com/adobe-fonts/source-han-serif)
-    - 等宽字体：[Go Mono](https://github.com/golang/image/tree/master/font/gofont/ttfs)
-
 - resume.md
 
     简历模板。
