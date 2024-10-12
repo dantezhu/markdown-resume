@@ -4,9 +4,6 @@
  *      Filename: resume.css
  *       Summary: 
  *          专门针对简历定制的主题样式。fork from typora/github.css
- *          - 依赖字体
- *              - 普通字体：思源宋体
- *              - 等宽字体：Go Mono
  * 
  *        Author: dantezhu
  *         Email: dantezhu@qq.com
@@ -32,7 +29,7 @@ html {
 }
 
 body {
-    font-family: 思源宋体, serif;
+    font-family: Arial, sans-serif;
     color: rgb(51, 51, 51);
     line-height: 1.4;
 }
@@ -251,7 +248,7 @@ tt {
     padding: 0;
     padding: 2px 4px 0px 4px;
     font-size: 0.9em;
-    font-family: 'Go Mono', 思源宋体, monospace;
+    font-family: Menlo, Consolas, 'Liberation Mono', monospace;
 }
 
 code {
