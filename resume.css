@@ -100,13 +100,13 @@ h6 code {
 h1 {
     font-size: 2em;
     /* line-height: 1.2; */
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #e7e7e7;
     text-align: center;
 }
 h2 {
     font-size: 1.5em;
     /* line-height: 1.225; */
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #e7e7e7;
 }
 
 /*@media print {
@@ -153,7 +153,7 @@ li>ul {
     margin: 0 0;
 }
 hr {
-    height: 2px;
+    height: 1px;
     padding: 0;
     margin: 16px 0;
     background-color: #e7e7e7;
