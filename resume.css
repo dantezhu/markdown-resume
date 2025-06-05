@@ -21,15 +21,19 @@
 :root {
     --side-bar-bg-color: #fafafa;
     --control-text-color: #777;
+    --font-family: 'PingFang SC', Inter, Roboto, 'Microsoft YaHei', sans-serif;
+    --mono-font-family: 'SF Mono', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+    /* source mode's code */
+    --monospace: var(--mono-font-family);
 }
 
 html {
     font-size: 17px;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: initial;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--font-family);
     color: rgb(51, 51, 51);
     line-height: 1.4;
 }
@@ -248,7 +252,7 @@ tt {
     padding: 0;
     padding: 2px 4px 0px 4px;
     font-size: 0.9em;
-    font-family: Menlo, Consolas, 'Liberation Mono', monospace;
+    font-family: var(--mono-font-family);
 }
 
 code {
@@ -365,7 +369,7 @@ code {
 }
 
 header, .context-menu, .megamenu-content, footer{
-    font-family: 思源宋体, serif;
+    font-family: var(--font-family);
 }
 
 .file-node-content:hover .file-node-icon,
