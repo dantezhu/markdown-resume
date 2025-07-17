@@ -281,13 +281,25 @@ code {
     html {
         font-size: 11pt;
     }
+
     pre {
         page-break-inside: avoid;
         word-wrap: break-word;
     }
+
     /* 避免表头在多个页面重复显示 */
     table thead {
         display: table-row-group;
+    }
+
+    /* 允许表格、行、单元格内部断页 */
+    table, tr, td, th {
+        page-break-inside: auto !important;
+    }
+
+    /* 避免表头单独分页 */
+    th {
+        page-break-after: avoid !important;
     }
 }
 
