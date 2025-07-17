@@ -296,11 +296,6 @@ code {
     table, tr, td, th {
         page-break-inside: auto !important;
     }
-
-    /* 避免表头单独分页 */
-    th {
-        page-break-after: avoid !important;
-    }
 }
 
 .md-fences {
